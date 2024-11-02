@@ -43,7 +43,7 @@ start.addEventListener("click", () => {
       minCounter = 0;
       secCounter = 0;
     }
-  }, 100);
+  }, 1000);
 });
 pause.addEventListener("click", () => {
     //pause disable hoga baki dono chalenge
