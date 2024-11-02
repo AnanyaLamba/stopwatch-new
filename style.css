@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(95, 121, 160);
+}
+
+
+.display{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 240px;
+    color: #2c2828;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(95, 121, 160);
+    width: 40vw;
+    margin-left: 450px;
+    height: 40vh;
+}
+#start{
+    font-size: 20px;
+    border: 0;
+    border-radius: 40px;
+    background-color:rgb(74, 206, 74);
+    box-shadow: 5px 5px 5px  black;
+    transition: transform 0.2s, background-color 0.2s;
+    padding: 10px;
+}
+#stop{
+    font-size: 20px;
+    border-radius: 40px ;
+    background-color: rgb(243, 243, 123);
+    box-shadow: 5px 5px 5px  black;
+    border: 0;
+    transition: transform 0.2s, background-color 0.2s;
+    padding: 10px;
+}
+#Reset{
+    font-size: 20px;
+    border-radius: 40px;
+    background-color: rgb(244, 146, 146);
+    box-shadow: 5px 5px 5px  black;
+    border: 0;
+    transition: transform 0.2s, background-color 0.2s;
+    padding: 10px;
+}
+
+#minutes
+{
+    font-size:50px;
+}
+
+#seconds
+{
+    font-size: 50px;
+}
+
+#hours
+{
+    font-size: 50px;
+}
