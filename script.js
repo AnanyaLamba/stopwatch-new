@@ -22,7 +22,7 @@ start.addEventListener("click", () => {
     else{
         sec.innerHTML = secCounter;
     }
-    if (secCounter > 59) {
+    if (secCounter > 58) {
       minCounter++;
       if(minCounter<10){
         minutes.innerHTML = `0${minCounter}`
@@ -32,7 +32,7 @@ start.addEventListener("click", () => {
       }
       secCounter = 0;
     }
-    if (minCounter > 59) {
+    if (minCounter > 58) {
       hourCounter++;
       if(hourCounter<10){
         hours.innerHTML = `0${hourCounter}`
